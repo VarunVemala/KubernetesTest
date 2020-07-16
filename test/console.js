@@ -1,0 +1,1 @@
+console.log('Logging from KuberenetesTest/test/console.js');

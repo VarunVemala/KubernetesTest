@@ -1,0 +1,23 @@
+{
+  "name": "nodetestproj",
+  "version": "1.0.0",
+  "description": "Simple project to test & execute Node ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/console.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VarunVemala/KubernetesTest.git"
+  },
+  "author": "Varun Vemala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VarunVemala/KubernetesTest/issues"
+  },
+  "homepage": "https://github.com/VarunVemala/KubernetesTest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
