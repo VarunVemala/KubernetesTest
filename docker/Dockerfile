@@ -8,7 +8,7 @@ WORKDIR /usr/app
 COPY package*.json ./
 RUN npm install
 
-COPY . .
+COPY ../node/ .
 
 # Expose running port of the node application
 EXPOSE 1236
