@@ -13,3 +13,6 @@ Node:
 1. Express application running on port 1236.
 2. Paths: /, /things, /things/hello, /things/hello/<string>
 
+Docker:
+1. docker build -t varunvemala/nodetestproj:v1.0.0  <GIT_HTTPS_URL>
+2. docker push varunvemala/nodetestproj:v1.0.0
