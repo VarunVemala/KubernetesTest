@@ -5,10 +5,10 @@ MAINTAINER VarunVemala
 WORKDIR /usr/app
 
 # Install app dependencies
-COPY package*.json ./
+COPY node/package*.json ./
 RUN npm install
 
-COPY ../node/ .
+COPY node/ ./
 
 # Expose running port of the node application
 EXPOSE 1236
