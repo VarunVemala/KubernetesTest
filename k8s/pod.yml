@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nodetestproj-pod
+  labels:
+    app: nodetestproj-pod
+spec:
+  containers:
+  - name: nodetestproj-ctr
+    image: varunvemala/nodetestproj:latest
+    ports:
+    - containerPort: 1236
